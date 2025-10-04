@@ -93,6 +93,7 @@ def predict_image(path, model, transform):
     return train_data.classes[pred.item()]
 
 print(\"Prediction:\", predict_image(\"sample_panda.jpg\", model, transform))
+```
 
 ## Output
 <img width="734" height="726" alt="image" src="https://github.com/user-attachments/assets/1cbd6523-a829-4901-a560-46a579e3b804" />
